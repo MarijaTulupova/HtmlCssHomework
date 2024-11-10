@@ -1,0 +1,22 @@
+.info p {
+  margin: 0;
+}
+
+.where {
+  margin-top: 20px;
+}
+
+.day {
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border-color: black;
+  padding: 25px 10px;
+}
+
+.button {
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}

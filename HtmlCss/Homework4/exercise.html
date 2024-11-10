@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="exercise.css" />
+    <title>Exercise</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" method="post" class="form">
+        <div class="title-container">
+          <h1>Testform</h1>
+        </div>
+        <div class="main">
+          <div class="row">
+            <label class="label" for="name">Name</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="row">
+            <label class="label" for="password">Password</label>
+            <input type="password" name="password" id="password" required />
+          </div>
+          <div class="row">
+            <legend class="label">Gender</legend>
+            <div>
+              <div>
+                <input type="radio" name="gender" id="male" value="male" />
+                <label for="male">Male</label>
+              </div>
+              <div>
+                <input type="radio" name="gender" id="female" value="female" />
+                <label for="female">Female</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <label class="label" for="continent">Continent</label>
+            <select name="continent" id="continent">
+              <option value="" selected disabled hidden>
+                Please select...
+              </option>
+              <option value="asia">Asia</option>
+              <option value="africa">Africa</option>
+              <option value="northamerica">North America</option>
+              <option value="southamerica">South America</option>
+              <option value="antartica">Antartica</option>
+              <option value="europe">Europe</option>
+              <option value="Australia">Australia</option>
+            </select>
+          </div>
+          <div class="row">
+            <legend class="label">Meals</legend>
+            <div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="meals"
+                  id="breakfast"
+                  value="breakfast"
+                />
+                <label for="breakfast">Breakfast</label>
+              </div>
+              <div>
+                <input type="checkbox" name="meals" id="lunch" value="lunch" />
+                <label for="lunch">Lunch</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="meals"
+                  id="dinner"
+                  value="dinner"
+                />
+                <label for="dinner">Dinner</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <label class="label" for="remark">Remark</label>
+            <textarea name="remark" id="remark" cols="35" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="end">
+          <button type="submit">Send</button>
+          <button type="reset">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
