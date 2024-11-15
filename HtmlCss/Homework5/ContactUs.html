@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>ContactUs</title>
+  </head>
+  <body id="upward">
+    <header>
+      <ul>
+        <li class="nav-item">
+          <a href="Home.html" class="link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="AboutUs.html" class="link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="ContactUs.html" class="link">Contact Us</a>
+        </li>
+      </ul>
+    </header>
+    <div class="main">
+      <h2>Contact Us</h2>
+      <p>
+        We’d love to hear from you! Whether you have a question about our menu,
+        want to share feedback about your visit, or are interested in reserving
+        space for an event, or maybe you are looking for a job, we’re here to
+        help. Simply fill out the form below or
+        <a href="mailto:brew-that@example.org" class="link mailto">Email Us</a>,
+        and we’ll get back to you as soon as possible.
+      </p>
+      <form action="" method="post">
+        <fieldset>
+          <legend><b>Personal Information</b></legend>
+          <div class="row">
+            <label class="label" for="name"><b>Name</b></label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <br />
+          <div class="row">
+            <label class="label" for="surname"><b>Surname</b></label>
+            <input type="text" name="surname" id="surname" required />
+          </div>
+          <br />
+          <div class="row">
+            <legend class="label"><b>Gender</b></legend>
+            <div class="input-box">
+              <input type="radio" name="gender" id="male" value="male" />
+              <label for="male">Male</label>
+            </div>
+            <div class="input-box">
+              <input type="radio" name="gender" id="female" value="female" />
+              <label for="female">Female</label>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <label class="label" for="email"><b>Email</b></label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Enter your email"
+            />
+          </div>
+          <br />
+          <div class="row">
+            <label class="label" for="telNo"><b>Phone number:</b></label>
+            <input
+              type="telNo"
+              name="telNo"
+              id="telNo"
+              required
+              placeholder="123-4567-8910"
+            />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend><b>Table Reservation</b></legend>
+          <div class="row">
+            <label class="label" for="dateTime"><b>When?</b></label>
+            <input
+              type="datetime-local"
+              name="dateTime"
+              id="dateTime"
+              required
+            />
+          </div>
+          <br />
+          <div class="row">
+            <label class="label" for="number"><b>How many people?</b></label>
+            <input type="number" name="number" id="number" min="1" />
+          </div>
+          <br />
+          <div class="row">
+            <label class="label" for="occasion"
+              ><b>Special occasion:</b>
+            </label>
+            <textarea id="occasion" name="occasion" cols="23" rows="5">
+            </textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend><b>Apply for a job</b></legend>
+          <div class="row">
+            <legend class="label"><b>I have experience as:</b></legend>
+            <div class="input-box">
+              <input type="checkbox" name="job" id="chef" value="chef" />
+              <label for="chef">Chef</label>
+            </div>
+            <div class="input-box">
+              <input
+                type="checkbox"
+                name="job"
+                id="bartender"
+                value="bartender"
+              />
+              <label for="bartender">Bartender</label>
+            </div>
+            <div class="input-box">
+              <input type="checkbox" name="job" id="waiter" value="waiter" />
+              <label for="waiter">Waiter</label>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <label class="label" for="position"><b>I apply for:</b></label>
+            <select name="position" id="position">
+              <option value="" selected disabled hidden>Please select</option>
+              <option value="chef">Chef</option>
+              <option value="bartender">Bartender</option>
+              <option value="waiter">Waiter</option>
+            </select>
+          </div>
+          <br />
+          <div class="row">
+            <label class="label" for="hire"
+              ><b>Why should we hire you?</b></label
+            >
+            <textarea id="hire" name="hire" cols="23" rows="5"> </textarea>
+          </div>
+          <br />
+          <div class="row">
+            <label for="photo" class="label"><b>Upload your photo</b></label>
+            <input type="file" name="photo" id="photo" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend><b>Additional Comment</b></legend>
+          <div class="row">
+            <label class="label" for="feedback"><b>Feedback:</b></label>
+            <textarea id="feedback" name="feedback" cols="23" rows="5">
+            </textarea>
+          </div>
+        </fieldset>
+        <div class="end">
+          <button type="submit">Send</button>
+          <button type="reset">Cancel</button>
+        </div>
+      </form>
+      <h3>Location</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3004.629124477838!2d22.498444776712883!3d41.142621571332086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1356258cc35f8d77%3A0xfd3e1c1ec21378b1!2sCoffee%20IN%20%26%20Bar!5e0!3m2!1sen!2smk!4v1731684623897!5m2!1sen!2smk"
+        width="400"
+        height="400"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <hr />
+      <a href="#upward" class="link upward">Back to the top</a>
+      <hr />
+    </div>
+    <footer>
+      <p><small> &copy All rights reserved. MT 2024</small></p>
+    </footer>
+  </body>
+</html>

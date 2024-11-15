@@ -1,0 +1,104 @@
+body {
+  font-family: sans-serif;
+  margin-top: 0;
+}
+header ul {
+  margin: 0;
+  border-bottom: 1px solid rgb(116, 76, 76);
+  padding: 20px;
+}
+footer {
+  padding: 20px;
+}
+.nav-item {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(116, 76, 76);
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(116, 76, 76);
+}
+
+.main-image {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image h1 {
+  margin: 0;
+}
+
+.image {
+  border-radius: 20px;
+}
+.nav-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+a:hover {
+  color: brown;
+}
+
+.main {
+  padding: 0 40px;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  color: rgb(116, 76, 76);
+  font-size: 50px;
+}
+h2 {
+  color: rgb(116, 76, 76);
+}
+.row {
+  display: flex;
+}
+.label {
+  width: 200px;
+}
+.end {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+  padding: 5px 10px;
+}
+.end button {
+  border-radius: 5px;
+  cursor: pointer;
+}
+.mailto {
+  margin: 0;
+}
+.upward {
+  padding: 20px;
+}
+
+fieldset {
+  margin-top: 20px;
+}
+
+.input-box {
+  margin-right: 16px;
+}
