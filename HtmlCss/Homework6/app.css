@@ -1,0 +1,27 @@
+body {
+  background-color: lightblue;
+}
+
+header {
+  color: #862200;
+}
+
+p {
+  background-color: rgb(255, 255, 230);
+}
+
+li {
+  border: 1px solid rgb(144, 26, 255, 0.5);
+  padding: 10px 15px;
+}
+
+button {
+  color: hsl(120, 100%, 90%);
+  background-color: hsla(300, 65%, 80%, 0.75);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(77, 128, 77);
+}

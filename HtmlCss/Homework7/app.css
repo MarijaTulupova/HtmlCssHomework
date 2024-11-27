@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  border: 5px solid #4d2600;
+  height: 700px;
+  width: 700px;
+}
+
+.one {
+  background-color: antiquewhite;
+  border-right: 5px solid #4d2600;
+  border-bottom: 35px solid #4d2600;
+  height: 250px;
+  width: 200px;
+  display: inline-block;
+}
+
+.two {
+  background-color: red;
+  border-bottom: 7px solid #4d2600;
+  border-left: 5px solid #4d2600;
+  height: 500px;
+  width: 490px;
+  display: inline-block;
+  position: absolute;
+}
+
+.three {
+  background-color: antiquewhite;
+  border-right: 5px solid #4d2600;
+  border-bottom: 7px solid #4d2600;
+  height: 250px;
+  width: 200px;
+  position: absolute;
+  top: 263px;
+}
+
+.four {
+  background-color: dodgerblue;
+  border-top: 5px solid #4d2600;
+  border-right: 10px solid #4d2600;
+  height: 193px;
+  width: 205px;
+  position: absolute;
+  top: 510px;
+}
+
+.five {
+  background-color: antiquewhite;
+  border-right: 15px solid #4d2600;
+  height: 190px;
+  width: 460px;
+  display: inline-block;
+  position: absolute;
+  top: 513px;
+  left: 218px;
+}
+
+.six {
+  background-color: antiquewhite;
+  border-bottom: 15px solid #4d2600;
+  height: 100px;
+  width: 28px;
+  display: inline-block;
+  position: absolute;
+  top: 513px;
+  left: 675px;
+}
+
+.seven {
+  background-color: yellow;
+  border-top: 15px solid #4d2600;
+  height: 100px;
+  width: 28px;
+  display: inline-block;
+  position: absolute;
+  top: 603px;
+  left: 675px;
+}
