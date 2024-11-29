@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>50 Shades Of Nature</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="danda.html" class="link">Destinations and Activities</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Plan Your Adventure</h2>
+    <p>
+      Let us help you create unforgettable memories! Whether you're curious
+      about specific destinations, need advice on activities, or have special
+      requests, we’re here to make your dream getaway a reality. Fill out the
+      form below, and our team will get back to you with personalized
+      recommendations and plans tailored to your needs.
+    </p>
+    <form action="" method="post">
+      <fieldset>
+        <legend>
+          Tell us who you are! We’d love to address you personally.
+        </legend>
+        <div class="row">
+          <label class="label" for="name"><b>First Name</b></label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <br />
+        <div class="row">
+          <label class="label" for="surname"><b>Last Name</b></label>
+          <input type="text" name="surname" id="surname" required />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          Provide your email address so we can get in touch with you.
+        </legend>
+        <div class="row">
+          <label class="label" for="email"><b>Email</b></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Enter your email"
+          />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          Is there a particular place you have in mind? Let us know your dream
+          spot!
+        </legend>
+        <div class="row">
+          <label class="label" for="position"
+            ><b>Preferred Destination:</b></label
+          >
+          <select name="position" id="position">
+            <option value="" selected disabled hidden>Please select</option>
+            <option value="chef">Macedonia</option>
+            <option value="bartender">Greece</option>
+            <option value="waiter">Serbia</option>
+          </select>
+        </div>
+        <br />
+        <div class="row">
+          <label class="label" for="feedback"
+            ><b>Activities you wanna do or try:</b></label
+          >
+          <textarea id="feedback" name="feedback" cols="23" rows="5">
+          </textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>
+          Share your thoughts, questions, or any details about your trip
+          preferences. The more we know, the better we can assist!
+        </legend>
+        <div class="row">
+          <label class="label" for="feedback"><b>Message:</b></label>
+          <textarea id="feedback" name="feedback" cols="23" rows="5">
+          </textarea>
+        </div>
+      </fieldset>
+
+      <small>
+        <i
+          >Your adventure starts here. Once you hit send, our team will review
+          your details and respond promptly with a custom plan to suit your
+          interests.</i
+        >
+      </small>
+      <div class="end">
+        <button type="submit" class="button">Start Planing</button>
+      </div>
+    </form>
+
+    <footer>
+      <hr />
+      <div class="social">
+        <a href="https://www.facebook.com/" target="_blank" class="link icon">
+          <i class="fa fa-brands fa-facebook fa-2x"></i>
+        </a>
+      </div>
+      <div class="social">
+        <a href="https://www.instagram.com/" target="_blank" class="link icon">
+          <i class="fa fa-brands fa-instagram fa-2x"></i>
+        </a>
+      </div>
+      <div class="social">
+        <a href="https://x.com/?lang=en" target="_blank" class="link icon">
+          <i class="fa fa-brands fa-twitter fa-2x"></i>
+        </a>
+      </div>
+      <hr />
+      <p><small> &copy All rights reserved. MT 2024</small></p>
+    </footer>
+  </body>
+</html>
